@@ -1,0 +1,19 @@
+.about{
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+}
+.about__text{
+  width: 30%;
+}
+.about h3{
+  color: var(--greenLight);
+  font-size: 2em;
+  margin-bottom: 0.2em;
+}
+.about p{
+  line-height: 1.7em;
+}
+.about img{
+  width: 450px;
+}
