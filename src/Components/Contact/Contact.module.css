@@ -1,0 +1,47 @@
+.contact{
+  margin-top: 6em;
+  display: flex;
+  justify-content: center;
+}
+.contact__text{
+  width: 30%;
+}
+.contact__text h2{
+  color: var(--white);
+  font-weight: bold;
+  font-size: 2em;
+  
+}
+.contact__text p{
+  color: #ccc;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  
+  
+}
+.contact__text button{
+  background: #5f7fff;
+  border: none;
+  padding: 0.5em;
+  border-radius: 10px;
+  color: #ccc;
+  font-size: 1.5em;
+  margin-top: 1.5em;
+  cursor: pointer;
+  transition: 1s;
+}
+.contact__text button:hover{
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: 1s;
+}
+.contact__link a{
+  color: #ccc;
+  font-size: 1.5em;
+  margin-right: 1em;
+}
+.contact__link a:hover {
+  color: var(--greenLight);
+}
+.contact img{
+ width: 650px;
+}
