@@ -1,0 +1,42 @@
+.banner{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin-top: 5em;
+  
+}
+.banner__text{
+  border-radius: 10px solid black;
+  width: 30%;
+  
+}
+.banner__text h2{
+  color: var(--white);;
+  font-weight: 700;
+  font-size: 3em;
+}
+.banner__text p {
+  color: #ccc;
+}
+
+.banner img{
+  width: 160px;
+  border-radius: 50%;
+  border: 1px solid var(--greenLight);
+  fill: #64ffda;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+.contact{
+  font-size: 1.7em;
+  display: flex;
+  column-gap: 1em;
+}
+.contact a{
+  color: #ccc;
+}
+.contact a:hover{
+  color: var(--greenLight);
+}
