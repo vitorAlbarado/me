@@ -1,0 +1,12 @@
+.footer{
+  background: var(--blueLight);
+  height: 60px;
+  color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.footer p{
+  vertical-align: bottom;
+}
