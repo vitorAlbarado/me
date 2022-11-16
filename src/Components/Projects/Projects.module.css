@@ -1,0 +1,12 @@
+.main{
+  text-align: center;
+  margin-top: 3em;
+  height: 700px;
+
+}
+.main h2{
+  color: var(--greenLight);
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
