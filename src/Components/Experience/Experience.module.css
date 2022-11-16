@@ -1,0 +1,68 @@
+.experience{
+  margin-top: 3em;
+  text-align: center;
+  min-height: 308px;
+  
+}
+.experience h2{
+  color: var(--greenLight);
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.wrapper{
+  display: flex;
+  width: 700px;
+  margin: 0 auto;
+  column-gap: 1em;
+}
+.wrapper__btn{
+  display: flex;
+  flex-direction: column;
+}
+.wrapper__btn__link{
+  width: 90px;
+  height: 42px;
+  border: none;
+  border-left:1px solid #ccc;
+  background: none;
+  cursor: pointer;
+  transition: all 0.7s;
+  color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.wrapper__btn a:hover, .active{
+  background: var(--greenHover);
+  color: var(--greenLight);
+  border-left: 2px solid var(--greenLight);
+  transition: all  0.7s;
+
+}
+.wrapper__works{
+  width: 100%;
+  text-align: left;
+}
+
+.wrapper__works strong{
+  color: var(--greenHover);
+}
+.wrapper__works p{
+  color: #ccc;
+  font-size: 0.8em;
+  margin: 0.5em 0 1.5em 0;
+}
+.wrapper__works__list{
+  margin-left: 1em;
+  line-height: 2em;
+}
+.wrapper__works__list ol{
+  list-style:disc;
+  
+}
+.wrapper__works__list ol li::marker{
+  color: var(--greenLight);
+}
