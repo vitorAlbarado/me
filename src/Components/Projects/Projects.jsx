@@ -14,6 +14,7 @@ export default function Projects(){
           description="Sistema para controle de budget, defina projetos, seus custos e 
           serviços e tenha controle de quanto e onde foi gasto o budget do projeto."
           github="https://github.com/vitorAlbarado/costs"
+          site="https://costs-budget.vercel.app/"
 
         />
         <Project 
@@ -22,6 +23,7 @@ export default function Projects(){
           description="Sistema para controle de empréstimos de livros, cadastre as 
           informações dos livros, controle os livros emprestados armazenando as informações de empréstimos realizados."
           github="https://github.com/vitorAlbarado/TBTT"
+          site="https://tbtt.vercel.app/"
 
         />
     </section>
