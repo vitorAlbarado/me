@@ -4,12 +4,14 @@
   align-items: top;
   margin-bottom: 1em;
 }
-
+.projects__img{
+  width: 30%;
+}
 .projects__img img{
-  width: 550px;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   opacity:0.5;
+  width: 100%;
 }
 .projects__img img:hover{
   opacity: 1;
@@ -22,7 +24,6 @@
   flex-direction: column;
   align-items: flex-end;
   width: 20%;
-  
   
 }
 .projects__description h3{
@@ -53,4 +54,25 @@
 }
 .projects__description__link a:hover{
   color: var(--greenLight);
+}
+
+@media screen and (max-width:576px){
+  .projects{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 3em;
+    padding: 0 1em;
+
+  }
+  .projects__img{
+    width: 100%;
+  }
+  .projects__description{
+    width: 100%;
+    align-items: flex-start;
+  }
+  .projects__description__link{
+    margin: 0 auto;
+  }
+  
 }

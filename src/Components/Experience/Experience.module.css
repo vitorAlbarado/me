@@ -2,6 +2,7 @@
   margin-top: 3em;
   text-align: center;
   min-height: 308px;
+  box-sizing: border-box;
   
 }
 .experience h2{
@@ -15,6 +16,7 @@
   width: 700px;
   margin: 0 auto;
   column-gap: 1em;
+  
 }
 .wrapper__btn{
   display: flex;
@@ -69,11 +71,12 @@
 
 @media screen and (max-width:576px){
   .experience{
-    min-height: 497px;
+    padding: 0 1em;
   }
   .wrapper{
+    box-sizing: border-box;
+    min-height: 300px;
     width: 100%;
-    border: 1px solid red;
   }
   .wrapper__works__list{
     font-size: 0.8em;
