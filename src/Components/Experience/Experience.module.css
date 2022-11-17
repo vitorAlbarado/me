@@ -66,3 +66,17 @@
 .wrapper__works__list ol li::marker{
   color: var(--greenLight);
 }
+
+@media screen and (max-width:576px){
+  .experience{
+    min-height: 497px;
+  }
+  .wrapper{
+    width: 100%;
+    border: 1px solid red;
+  }
+  .wrapper__works__list{
+    font-size: 0.8em;
+    width: 100%;
+  }
+}

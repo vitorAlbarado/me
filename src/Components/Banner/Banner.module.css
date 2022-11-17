@@ -40,3 +40,14 @@
 .contact a:hover{
   color: var(--greenLight);
 }
+@media screen and (max-width:576px){
+  .banner{
+    margin-top: 3em;
+  }
+  .banner__text{
+    width: 90%;
+  }
+  .banner__text h2{
+    font-size: 2em;
+  }
+}

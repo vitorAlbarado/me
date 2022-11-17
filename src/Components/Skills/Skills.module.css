@@ -20,3 +20,12 @@
 .skills__icons{
   font-size: 3em;
 }
+
+@media screen and (max-width:576px){
+  .skills__icons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+}
