@@ -48,3 +48,9 @@ a{
   
   border: 1px solid #64ffda;
 }
+
+@media screen and (max-width:576px){
+  .navbar{
+    display: none;
+  }
+}

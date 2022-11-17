@@ -2,10 +2,12 @@ import {FaFileDownload} from 'react-icons/fa'
 import styles from './NavBar.module.css';
 import Typical  from 'react-typical';
 import { Link } from 'react-router-dom';
+import DropDown from './Dropdown/DropDown';
 
 export default function NavBar (){
   return (
     <header className={styles.header}>
+      <DropDown/>
       <span className={styles.title}>{`<`}
         <Typical
           steps={['Vitor Albarado',10000,'',1000]}
